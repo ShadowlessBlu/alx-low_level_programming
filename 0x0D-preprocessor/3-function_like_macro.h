@@ -1,10 +1,6 @@
-#include <stdio.h>
-/**
- * main - program entry point
- * Return: 0 (success)
- */
-int main(void)
-{
-	printf("%s\n", __FILE__);
-	return (0);
-}
+#ifndef ABSOLUTE
+#define ABSOLUTE
+
+#define ABS(X) ((X) < (0) ? -(X) : (X))
+
+#endif /*ABSOLUTE*/
