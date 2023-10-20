@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <string.h>
-#include "sing_list.h"
+#include "lists.h"
 #include <stdio.h>
 
 /**

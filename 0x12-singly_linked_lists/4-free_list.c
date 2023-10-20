@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <string.h>
-#include "sing_list.h"
+#include "lists.h"
 #include <stdlib.h>
 
 /**
@@ -16,7 +16,7 @@ void free_list(list_t *head)
 
 	while (cur != NULL)
 	{
-		tempor = current;
+		tempor = cur;
 		cur = cur->next;
 
 		free(tempor->str);
