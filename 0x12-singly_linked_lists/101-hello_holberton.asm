@@ -1,6 +1,5 @@
 section .data
-    format db "Hello, Holberton", 10, 0
-
+    format db "Hello, Holberton\n", 10, 0
 section .text
     global main
 
@@ -8,9 +7,9 @@ section .text
 
 main:
     mov edi, format
-    xor eax, eax
+    xor eax, eax         
     call printf
-    mov eax, 60
-    xor edi, edi
+    mov eax, 60   
+    xor edi, edi     
     syscall
 
